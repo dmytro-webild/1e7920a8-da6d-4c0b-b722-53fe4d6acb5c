@@ -10,40 +10,12 @@ export default function TrustSection(): React.JSX.Element {
     <div id="trust" data-section="trust">
         <SectionErrorBoundary name="trust">
               <MetricsFeatureCards
-          tag="Why Raasta"
-          title="Expertise That Matters"
-          description="We specialize in Bangladeshi-first consulting with global standards."
-          metrics={[
-            {
-              value: "20/80",
-              title: "Payment Plans",
-              features: [
-                "Flexible structure",
-                "Minimal cash outflow",
-                "Direct developer rates",
-              ],
-            },
-            {
-              value: "100%",
-              title: "Transparent",
-              features: [
-                "No hidden costs",
-                "Full legal support",
-                "End-to-end service",
-              ],
-            },
-            {
-              value: "24/7",
-              title: "Consulting",
-              features: [
-                "Direct access to Alif",
-                "Real-time updates",
-                "Dedicated support",
-              ],
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="Why Raasta"
+        title="Real Estate With Purpose"
+        description="Bangladeshi-first advisory and 24/7 WhatsApp support for high-value Dubai real estate."
+        metrics={[{"value":"20/80","features":["Flexible 20/80 structure","Minimal initial cash outflow","Direct developer rates"],"title":"Payment Plans"},{"value":"Off-plan + Ready","features":["Off-plan & Ready options","Prime Dubai locations","High ROI potential"],"title":"Properties"},{"title":"Advisory","value":"Bangladeshi-first","features":["Dedicated support","Tailored consultation","Full legal guidance"]},{"title":"Support","value":"24/7 WhatsApp","features":["Direct WhatsApp to Alif","Instant inquiry response","24/7 availability"]}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );

@@ -7,11 +7,11 @@ import ImageOrVideo from "@/components/ui/ImageOrVideo";
 import AutoFillText from "@/components/ui/AutoFillText";
 
 const primaryButton = {
-  text: "Consult With Alif",
+  text: "WhatsApp Alif",
   href: "https://wa.me/971558766369?text=Hi%20Alif%2C%20I%20am%20interested%20in%20Dubai%20property.%20Please%20guide%20me."
 };
 const secondaryButton = {
-  text: "Browse Properties",
+  text: "View Properties",
   href: "/properties"
 };
 
@@ -44,11 +44,11 @@ const HeroInline = () => {
         <div className="flex flex-col">
           <div className="w-full flex flex-col md:flex-row md:justify-between items-start md:items-end gap-3 md:gap-5">
             <TextAnimation
-              text={"Real Estate With Purpose. Your partner in finding high-value property in Dubai. আপনার স্বপ্নের ঠিকানা এখন দুবাইতে."}
+              text={"Find your place in Dubai. দুবাই প্রপার্টি এখন আরও সহজ কিস্তিতে।"}
               variant={"fade-blur"}
               gradientText={false}
-              tag="p"
-              className="w-full md:w-1/2 text-lg md:text-2xl text-balance font-normal text-white leading-snug"
+              tag="h1"
+              className="w-full md:w-2/3 text-3xl md:text-5xl font-bold text-white leading-tight"
             />
 
             <div className="w-full md:w-1/2 flex justify-start md:justify-end">
