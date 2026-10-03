@@ -22,6 +22,16 @@ export default function PropertiesPage() {
           description: "Urban convenience redefined.",
           imageSrc: "http://img.b2bpic.net/free-photo/modern-exterior-urban-view_23-2149091989.jpg",
         },
+        {
+          title: "Downtown Penthouse",
+          description: "Panoramic skyline views and ultra-luxury finishes.",
+          imageSrc: "http://img.b2bpic.net/free-photo/view-luxurious-villa-with-modern-architectural-design_23-2151694041.jpg",
+        },
+        {
+          title: "Palm Jumeirah Villa",
+          description: "Private beachfront sanctuary with exclusive amenities.",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-exterior-urban-view_23-2149091989.jpg",
+        },
       ]}
       textAnimation="fade-blur"
     />
