@@ -15,22 +15,22 @@ export default function PropertiesPage() {
         {
           title: "Luxury Marina",
           description: "High-end waterfront living.",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-luxurious-villa-with-modern-architectural-design_23-2151694041.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/view-luxurious-villa-with-modern-architectural-design_23-2151694041.jpg?_wi=1",
         },
         {
           title: "City Center",
           description: "Urban convenience redefined.",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-exterior-urban-view_23-2149091989.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-exterior-urban-view_23-2149091989.jpg?_wi=1",
         },
         {
           title: "Downtown Penthouse",
           description: "Panoramic skyline views and ultra-luxury finishes.",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-luxurious-villa-with-modern-architectural-design_23-2151694041.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/view-luxurious-villa-with-modern-architectural-design_23-2151694041.jpg?_wi=2",
         },
         {
           title: "Palm Jumeirah Villa",
           description: "Private beachfront sanctuary with exclusive amenities.",
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-exterior-urban-view_23-2149091989.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/modern-exterior-urban-view_23-2149091989.jpg?_wi=2",
         },
       ]}
       textAnimation="fade-blur"
