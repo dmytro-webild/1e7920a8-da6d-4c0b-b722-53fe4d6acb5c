@@ -8,35 +8,13 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 
 export default function Layout() {
   const navItems = [
-  {
-    "name": "Home",
-    "href": "/"
-  },
-  {
-    "name": "Properties",
-    "href": "/properties"
-  },
-  {
-    "name": "Payment",
-    "href": "/payment"
-  },
-  {
-    "name": "About",
-    "href": "/about"
-  },
-  {
-    "name": "Contact",
-    "href": "#contact"
-  },
-  {
-    "name": "Hero",
-    "href": "#hero"
-  },
-  {
-    "name": "Trust",
-    "href": "#trust"
-  }
-];
+    { name: "Home", href: "/" },
+    { name: "Properties", href: "/properties" },
+    { name: "Payment Plans", href: "/payment" },
+    { name: "Why Raasta", href: "#trust" },
+    { name: "About Alif", href: "/about" },
+    { name: "Contact", href: "#contact" },
+  ];
 
   return (
     <StyleProvider buttonVariant="arrow" siteBackground="floatingGradient" heroBackground="cornerGlow">
