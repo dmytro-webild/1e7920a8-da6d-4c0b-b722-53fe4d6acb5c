@@ -11,7 +11,8 @@ import FeaturedSection from './HomePage/sections/Featured';
 import TestimonialsSection from './HomePage/sections/Testimonials';
 import ContactSection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+
+import NewsletterSection from './HomePage/sections/Newsletter';export default function HomePage(): React.JSX.Element {
   return (
 <>
   <HeroSection />
@@ -22,6 +23,7 @@ export default function HomePage(): React.JSX.Element {
 
   <TestimonialsSection />
 
+      <NewsletterSection />
   <ContactSection />
     </>
   );
